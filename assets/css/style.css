@@ -788,7 +788,20 @@ body {
     transform: rotate(45deg);
 }
 
-.menu__nav-wrapper ul li.menu-item-gtranslate .gsatelites a {
+.lan-nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.lan-nav-menu li {
+    padding: 5px 5px;
+}
+
+.menu__nav-wrapper ul li .lan-nav-menu li a{
+    font-size: 12px;
+}
+
+/* .menu__nav-wrapper ul li.menu-item-gtranslate .gsatelites a {
     left: 0px !important;
     bottom: 0px !important;
     right: 0px !important;
@@ -804,15 +817,15 @@ body {
 }
 .menu__nav-wrapper ul li.menu-item-gtranslate .gsatelites a::after {
     display: none !important;
-}
+} */
 
-.menu__nav-wrapper ul li.menu-item-gtranslate .gsatelites a img {
+/* .menu__nav-wrapper ul li.menu-item-gtranslate .gsatelites a img {
     width: 18.97px !important;
     height: 14.23px !important;
     border-radius: 2px !important;
     opacity: 0 !important;
     visibility: hidden !important;
-}
+} */
 
 .gsatelite.gt-current-lang img {
     opacity: 1 !important;
@@ -1102,10 +1115,11 @@ body {
 
 /* Banner Css Start Here */
 
-.home .main__banner{
+.home .main__banner {
     margin-top: -45px;
     clip-path: polygon(0 15%, 100% 1%, 100% 80%, 0% 100%);
 }
+
 /* .losungen__wrapper-top{
     clip-path: polygon(0 15%, 100% 8%, 100% 100%, 0 100%) !important;
 } */
@@ -1113,12 +1127,14 @@ body {
     clip-path: polygon(0 11.7%, 100% 8%, 100% 95%, 0 100%) !important;
     margin-top: -214px !important;
 } */
- .header{
+.header {
     padding-top: 40px;
 }
- .header__menu-wrapper{
+
+.header__menu-wrapper {
     padding-top: 0 !important;
 }
+
 .main__banner {
     height: 500px;
     margin-top: -120px;
@@ -1619,8 +1635,8 @@ body {
     color: var(--primary-color);
     text-transform: capitalize;
     margin-bottom: 4px;
-    text-overflow: ellipsis; 
-    overflow: hidden; 
+    text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -1906,9 +1922,9 @@ body {
 /* Search Css */
 
 
-.title-large-text{
+.title-large-text {
     font-weight: 800;
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 60px;
     line-height: 70px;
     font-family: 'RalewayExtraBold';
@@ -1916,30 +1932,34 @@ body {
     text-transform: capitalize;
     margin-bottom: 8px;
 }
+
 .trp-language-switcher-container,
 #trp-floater-ls {
     display: none;
 }
 
 /* new pages css */
-.single-banner{
+.single-banner {
     position: relative;
     width: 100%;
     height: 100%;
     background-position: center;
 }
-.single-banner .container{
+
+.single-banner .container {
     height: 100%;
     position: relative;
     z-index: 9;
 }
-.single-banner h2{
+
+.single-banner h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     text-transform: uppercase;
 }
+
 .single-banner::after {
     content: "";
     position: absolute;
@@ -1952,11 +1972,11 @@ body {
     z-index: 2;
 }
 
-.secondry-bg{
+.secondry-bg {
     background-color: var(--secondary-color);
 }
 
-.content-pages-wrap{
+.content-pages-wrap {
     margin-top: -100px;
     padding-top: 150px;
     color: var(--white-color);
@@ -1965,8 +1985,8 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 97.9%, 0% 100%);
 }
 
-.content-pages-wrap p{
-    margin:16px 0 ;
+.content-pages-wrap p {
+    margin: 16px 0;
     font-size: 13px;
     line-height: 20px;
 }
@@ -1974,22 +1994,25 @@ body {
 .content-pages-wrap a {
     color: var(--primary-color);
 }
+
 .container-inner {
     max-width: 928px;
     padding: 0px 16px;
     margin: 0 auto;
 }
 
-.impressum  p{
+.impressum p {
     font-size: 16px;
 }
+
 .page-template-impressum footer,
-.page-template-agb footer{
+.page-template-agb footer {
     position: relative;
     z-index: 9;
 }
+
 .page-template-impressum footer:before,
-.page-template-agb footer:before{
+.page-template-agb footer:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -2002,17 +2025,20 @@ body {
     background-color: var(--primary-color);
     z-index: -1;
 }
-.agb-title{
+
+.agb-title {
     font-size: 33px;
     font-family: 'ralewayregular';
     color: var(--primary-color);
     font-weight: normal;
     line-height: normal;
 }
-.agb-wrap{
+
+.agb-wrap {
     clip-path: unset;
     margin-top: 0;
 }
+
 /* Responsive Css Start Here */
 
 @media screen and (max-width: 1403px) and (min-width: 1311px) {
@@ -2206,16 +2232,17 @@ body {
         line-height: 19.09px;
     }
 
-    .content-pages-wrap{
+    .content-pages-wrap {
         clip-path: polygon(0 0, 100% 0, 100% 98.99%, 0% 100%);
         margin-top: -120px;
     }
 
-    .impressum{
+    .impressum {
         clip-path: unset;
     }
+
     .page-template-impressum footer:before,
-    .page-template-agb footer:before{
+    .page-template-agb footer:before {
         clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         -webkit-clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         top: -52px;
@@ -2402,15 +2429,17 @@ body {
         line-height: 19.09px;
     }
 
-    .content-pages-wrap{
+    .content-pages-wrap {
         clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 100%);
         margin-top: -120px;
     }
-    .impressum{
+
+    .impressum {
         clip-path: unset;
     }
+
     .page-template-impressum footer:before,
-    .page-template-agb footer:before{
+    .page-template-agb footer:before {
         clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         -webkit-clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         top: -52px;
@@ -2593,16 +2622,17 @@ body {
         clip-path: polygon(0 10.5%, 100% 0%, 100% 80%, 0% 100%);
     }
 
-    .content-pages-wrap{
+    .content-pages-wrap {
         clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 100%);
         margin-top: -120px;
     }
 
-    .impressum{
+    .impressum {
         clip-path: unset;
     }
+
     .page-template-impressum footer:before,
-    .page-template-agb footer:before{
+    .page-template-agb footer:before {
         clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         -webkit-clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         top: -52px;
@@ -2784,15 +2814,17 @@ body {
         clip-path: polygon(0 10%, 100% 1%, 100% 80%, 0% 100%);
     }
 
-    .content-pages-wrap{
+    .content-pages-wrap {
         clip-path: polygon(0 0, 100% 0, 100% 99.05%, 0% 100%);
-        
+
     }
-    .impressum{
+
+    .impressum {
         clip-path: unset;
     }
+
     .page-template-impressum footer:before,
-    .page-template-agb footer:before{
+    .page-template-agb footer:before {
         clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         -webkit-clip-path: polygon(0 52px, 100% 0, 100% 100%, 0 100%, 0 100px);
         top: -52px;
@@ -2978,23 +3010,25 @@ body {
         clip-path: polygon(0 10%, 100% 1%, 100% 80%, 0% 100%);
     }
 
-    .single-banner{
-        height:400px;
+    .single-banner {
+        height: 400px;
         background-position: left;
     }
+
     .single-banner h2.title-large-text {
         font-size: 20px;
         line-height: 40px;
     }
-    .content-pages-wrap{
+
+    .content-pages-wrap {
         padding-top: 150px !important;
     }
 
-    .content-main .main__banner{
+    .content-main .main__banner {
         height: auto;
     }
 
-    
+
 }
 
 @media(max-width: 767px) {
@@ -3277,14 +3311,17 @@ body {
     .home .main__banner {
         clip-path: polygon(0 10%, 100% 1%, 100% 80%, 0% 100%);
     }
-    .content-pages-wrap{
+
+    .content-pages-wrap {
         clip-path: polygon(0 0, 100% 0, 100% 99.8%, 0% 100%);
     }
-    .impressum{
+
+    .impressum {
         clip-path: unset;
     }
+
     .page-template-impressum footer:before,
-    .page-template-agb footer:before{
+    .page-template-agb footer:before {
         clip-path: polygon(0 100px, 100% 0, 100% 100%, 0 100%, 0 100px);
         -webkit-clip-path: polygon(0 18px, 100% 0, 100% 100%, 0 100%, 0 100px);
         top: -18px;
@@ -3448,22 +3485,20 @@ body {
     .main-menu .header__action-btn {
         display: none;
     }
-    .title-large-text{
+
+    .title-large-text {
         font-size: 35px;
         line-height: 50px;
     }
 }
 
 
-@media screen and (max-width:600px){
-    .side__menu-icon button{
+@media screen and (max-width:600px) {
+    .side__menu-icon button {
         margin-top: -15px;
-    }  
-    .footer__menu ul{
-        gap:10px;
+    }
+
+    .footer__menu ul {
+        gap: 10px;
     }
 }
-
-
-
-

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>  >
+<html <?php language_attributes();?>  >
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.png">
-    <title>Digitale Wegbereiter<?php wp_title('|', true, 'left'); ?></title>
-    <?php wp_head(); ?>
+    <title>Digitale Wegbereiter<?php wp_title('|', true, 'left');?></title>
+    <?php wp_head();?>
 </head>
-<body <?php body_class(); ?>>
-    <?php wp_body_open(); ?>
+<body <?php body_class();?>>
+    <?php wp_body_open();?>
     <header class="header">
         <div class="container">
             <div class="header__row">
                 <div class="header__logo-wrapper">
                     <?php
-                        if (!empty(the_custom_logo())) :
+                        if (!empty(the_custom_logo())):
                             the_custom_logo();
                         endif;
                     ?>
@@ -26,7 +26,7 @@
                                 wp_nav_menu(array(
                                     'container' => false,
                                     'theme_location' => 'main_menu',
-                                    'walker' => new Custom_Nav_Walker()
+                                    'walker' => new Custom_Nav_Walker(),
                                 ));
                             }
                             class Custom_Nav_Walker extends Walker_Nav_Menu
@@ -58,12 +58,12 @@
                                     <!-- Search Block -->
                                     <div class="search__wrapper" id="searchWrapper">
                                         <div class="search__field-wrapper">
-                                            <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                                            <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
                                                 <label>
-                                                    <span class="screen-reader-text"><?php echo _x( 'Search for:', 'diditale' ); ?></span>
-                                                    <input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search …', 'diditale' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+                                                    <span class="screen-reader-text"><?php echo _x('Search for:', 'diditale'); ?></span>
+                                                    <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search …', 'diditale'); ?>" value="<?php echo get_search_query(); ?>" name="s" />
                                                 </label>
-                                                <button type="submit" class="search-submit"><?php echo _x( 'Search', 'diditale' ); ?></button>
+                                                <button type="submit" class="search-submit"><?php echo _x('Search', 'diditale'); ?></button>
                                             </form>
 
                                             <!-- <input type="text" name="search" id="search" placeholder="Search">
@@ -75,12 +75,13 @@
                                 <li class="menu-item-gtranslate">
                                     <div class="gglobe">
                                         <div class="gsatelites">
-                                            <a href="#" data-gt-lang="en">
-                                              </a>
-                                            <a href="#" data-gt-lang="de">
-                                             </a>
-                                            <a href="#" data-gt-lang="ar">
-                                            </a>
+                                            <?php
+                                                wp_nav_menu(array(
+                                                    'theme_location' => 'language_switcher',
+                                                    'container' => false,
+                                                    'menu_class' => 'lan-nav-menu',
+                                                ));
+                                            ?>
                                         </div>
                                     </div>
                                 </li>
@@ -109,12 +110,12 @@
                 </button>
                 <div class="search__wrapper" id="flyoutWrapper">
                     <div class="search__field-wrapper">
-                        <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
                             <label>
-                                <span class="screen-reader-text"><?php echo _x( 'Search for:', 'diditale' ); ?></span>
-                                <input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search …', 'diditale' ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+                                <span class="screen-reader-text"><?php echo _x('Search for:', 'diditale'); ?></span>
+                                <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search …', 'diditale'); ?>" value="<?php echo get_search_query(); ?>" name="s" />
                             </label>
-                            <button type="submit" class="search-submit"><?php echo _x( 'Search', 'diditale' ); ?></button>
+                            <button type="submit" class="search-submit"><?php echo _x('Search', 'diditale'); ?></button>
                         </form>
                     </div>
                 </div>
@@ -131,7 +132,7 @@
                         wp_nav_menu(array(
                             'container' => false,
                             'theme_location' => 'main_menu',
-                            'walker' => new Custom_Nav_Walker_sidebar()
+                            'walker' => new Custom_Nav_Walker_sidebar(),
                         ));
                     }
                     class Custom_Nav_Walker_sidebar extends Walker_Nav_Menu
