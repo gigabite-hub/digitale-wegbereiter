@@ -115,7 +115,8 @@ $hero_slides = get_field( 'hero_slides' ); ?>
             <h2><?php echo esc_html__('Contact', 'diditale'); ?></h2>
         </div>
         <div class="contact__form-block" id="contactForm">
-            <?php echo do_shortcode('[contact-form-7 id="ef2a4d0" title="Contact US Form"]')?>
+            <?php //echo do_shortcode('[contact-form-7 id="ef2a4d0" title="Contact US Form"]')?>
+            <?php echo do_shortcode('[ninja_form id=1]'); ?>
         </div>
     </div>
 </section>
