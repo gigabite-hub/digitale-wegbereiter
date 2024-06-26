@@ -76,7 +76,8 @@ html {
 }
 
 body {
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     background-color: var(--primary-color);
 }
 
@@ -163,7 +164,8 @@ body {
     text-decoration: none;
     display: inline-block;
     border: none;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -460,7 +462,8 @@ body {
     line-height: 16.44px;
     font-weight: 500;
     padding: 3px 9px;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     border: none !important;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -502,6 +505,7 @@ body {
     font-weight: 800;
     color: #F6BE00;
     padding-top: 10px;
+    font-family: "Playfair", serif;
 }
 
 .hero-item:last-child {
@@ -516,6 +520,7 @@ body {
     font-size: 18px;
     line-height: 28px;
     padding-right: 10px;
+    font-family: "Manrope", sans-serif;
 }
 
 
@@ -611,14 +616,16 @@ body {
     color: var(--primary-color);
     font-weight: 700;
     margin-bottom: 4.78px;
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
 }
 
 .content-item p {
     font-size: 14px;
     color: var(--white-color);
     font-weight: 400;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 0px;
     line-height: 18px;
 }
@@ -708,7 +715,8 @@ body {
     padding: 10px 10px;
     border: none;
     font-size: 16px;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     outline: none;
     box-shadow: none;
@@ -720,7 +728,8 @@ body {
     justify-content: center;
     font-size: 16px;
     padding: 8px 8px;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     position: absolute;
     top: 0px;
@@ -860,7 +869,8 @@ body {
     color: var(--black-color);
     line-height: 16.44px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     position: absolute;
     top: 50%;
     left: 35.57px;
@@ -873,7 +883,8 @@ body {
     color: var(--black-color);
     line-height: 16.44px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     position: absolute;
     top: 50%;
     left: 35.57px;
@@ -886,7 +897,8 @@ body {
     color: var(--black-color);
     line-height: 16.44px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     position: absolute;
     top: 50%;
     left: 35.57px;
@@ -1054,7 +1066,8 @@ body {
     color: var(--black-color);
     line-height: 16.44px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     position: absolute;
     top: 50%;
     left: 35.57px;
@@ -1067,7 +1080,8 @@ body {
     color: var(--black-color);
     line-height: 16.44px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'ralewaymedium'; */
     position: absolute;
     top: 50%;
     left: 35.57px;
@@ -1080,7 +1094,8 @@ body {
     color: var(--black-color);
     line-height: 16.44px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     position: absolute;
     top: 50%;
     left: 35.57px;
@@ -1216,13 +1231,15 @@ body {
     font-size: 24px;
     color: var(--white-color);
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     line-height: normal;
     margin-bottom: 8px;
 }
 
 .banner__slide-content--wrapper h1 span {
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
     font-weight: 700;
     font-size: 60px;
     line-height: 70.44px;
@@ -1233,7 +1250,8 @@ body {
 .banner__slide-content--wrapper p {
     font-size: 24px;
     color: var(--white-color);
-    font-family: 'ralewaymedium';
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'ralewaymedium'; */
     font-weight: 500;
     line-height: 28.18px;
     margin-bottom: 0px;
@@ -1287,7 +1305,8 @@ body {
     border-radius: 5px;
     font-size: 20px;
     color: #11111F;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     font-weight: 500;
     text-decoration: none;
     border: 1px solid transparent;
@@ -1325,7 +1344,8 @@ body {
 .mission__wrapper-title h2 {
     font-size: 60px;
     font-weight: 700;
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
     color: #11111F;
     margin-bottom: 0px;
     line-height: 70.44px;
@@ -1375,14 +1395,16 @@ body {
     color: var(--primary-color);
     font-weight: 700;
     margin-bottom: 4.78px;
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
 }
 
 .mission__card-content p {
     font-size: 12px;
     color: var(--white-color);
     font-weight: 400;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 0px;
     line-height: 14.09px;
 }
@@ -1396,7 +1418,8 @@ body {
     font-weight: 500;
     position: absolute;
     bottom: 20px;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     text-decoration: none;
@@ -1442,7 +1465,8 @@ body {
     margin-bottom: 7px;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'ralewaymedium'; */
     color: var(--white-color);
 }
 
@@ -1487,7 +1511,8 @@ body {
     margin-bottom: 0px;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     color: var(--white-color);
 }
 
@@ -1508,7 +1533,8 @@ body {
     font-size: 20px;
     line-height: normal;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'ralewaymedium'; */
     color: #11111F;
     text-decoration: none;
     margin-top: 28px;
@@ -1533,7 +1559,8 @@ body {
     margin-bottom: 0px;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     color: var(--white-color);
 }
 
@@ -1547,7 +1574,8 @@ body {
     color: var(--primary-color);
     font-weight: 700;
     margin-bottom: 0px;
-    font-family: 'ralewaybold';
+    font-family: "Playfair", serif;
+    /* font-family: 'ralewaybold'; */
 }
 
 /* Contact Us */
@@ -1585,7 +1613,8 @@ body {
     text-decoration: none;
     display: inline-block;
     border: none;
-    font-family: 'ralewaymedium';
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'ralewaymedium'; */
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1613,7 +1642,8 @@ body {
     font-weight: 500;
     line-height: normal;
     margin: 0px;
-    font-family: 'ralewaymedium';
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'ralewaymedium'; */
 }
 
 /* Footer */
@@ -1638,7 +1668,8 @@ body {
 .portfolio__title-wrapper h1 {
     font-size: 60px;
     font-weight: 700;
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
     color: var(--primary-color);
     line-height: 70.44px;
     margin-bottom: 7px;
@@ -1647,7 +1678,8 @@ body {
 .portfolio__title-wrapper p {
     font-size: 18px;
     color: var(--white-color);
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     font-weight: 500;
     margin-bottom: 0px;
     line-height: 28px;
@@ -1660,7 +1692,8 @@ body {
 .portfolio__wrapper .mission__card-content h3 {
     font-size: 22px;
     font-weight: 700;
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
     color: var(--primary-color);
     text-transform: capitalize;
     margin-bottom: 4px;
@@ -1731,7 +1764,8 @@ body {
 .losungen__content-wrapper h2 {
     font-size: 60px;
     font-weight: 700;
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Playfair", serif;
     color: var(--primary-color);
     margin-bottom: 16px;
 }
@@ -1740,7 +1774,8 @@ body {
     font-size: 18px;
     color: var(--white-color);
     line-height: normal;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     margin-bottom: 16px;
     line-height: 28px;
@@ -1778,7 +1813,8 @@ body {
     font-size: 20px;
     line-height: normal;
     font-weight: 500;
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     color: #11111F;
     text-decoration: none;
     margin-top: 20px;
@@ -1831,7 +1867,8 @@ body {
 .single_portfolio--details .wp-block-column .wp-block-group__inner-container .wp-block-heading {
     font-size: 60px;
     color: var(--primary-color);
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 26px;
     font-weight: 700;
 }
@@ -1840,7 +1877,8 @@ body {
     font-size: 18px;
     color: var(--white-color);
     font-weight: 400;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 0px;
     line-height: 28px;
 }
@@ -1848,7 +1886,8 @@ body {
 #main__cards-wrapper .wp-block-heading {
     font-size: 60px;
     color: var(--primary-color);
-    font-family: 'ralewaybold';
+    /* font-family: 'ralewaybold'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 63px;
     font-weight: 700;
     line-height: 70.44px;
@@ -1871,7 +1910,8 @@ body {
 #main__cards-wrapper .wp-block-column .wp-block-heading {
     font-size: 28px;
     color: var(--primary-color);
-    font-family: 'ralewaymedium';
+    /* font-family: 'ralewaymedium'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 12px;
     font-weight: 500;
     line-height: 32.87px;
@@ -1881,7 +1921,8 @@ body {
     font-size: 18px;
     color: var(--white-color);
     font-weight: 400;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     margin-bottom: 0px;
     text-align: center;
     line-height: 21.13px;
@@ -1906,7 +1947,8 @@ body {
     outline: none;
     padding: 0px;
     width: 90px;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     margin-left: 20px;
 }
 
@@ -1917,7 +1959,8 @@ body {
     outline: none;
     padding: 0px;
     width: 90px;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     margin-left: 0;
     color: #fff;
 }
@@ -1957,7 +2000,8 @@ body {
     color: var(--white-color);
     font-size: 60px;
     line-height: 70px;
-    font-family: 'RalewayExtraBold';
+    /* font-family: 'RalewayExtraBold'; */
+    font-family: "Playfair", serif;
     font-weight: bold;
     text-transform: capitalize;
     margin-bottom: 8px;
@@ -2010,7 +2054,8 @@ body {
     margin-top: -100px;
     padding-top: 150px;
     color: var(--white-color);
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     clip-path: polygon(0 0, 100% 0, 100% 97.9%, 0% 100%);
 }
@@ -2058,7 +2103,8 @@ body {
 
 .agb-title {
     font-size: 33px;
-    font-family: 'ralewayregular';
+    /* font-family: 'ralewayregular'; */
+    font-family: "Playfair", serif;
     color: var(--primary-color);
     font-weight: normal;
     line-height: normal;
