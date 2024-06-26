@@ -153,6 +153,21 @@
                         }
                     }
                 ?>
+                <ul>
+                    <li class="menu-item-gtranslate">
+                        <div class="gglobe">
+                            <div class="gsatelites">
+                                <?php
+                                    wp_nav_menu(array(
+                                        'theme_location' => 'language_switcher',
+                                        'container' => false,
+                                        'menu_class' => 'lan-nav-menu',
+                                    ));
+                                ?>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
