@@ -7,6 +7,32 @@
         console.log("🚀 ~ currentURL:", currentURL);
         console.log("Ready");
 
+
+        function showPopup() {
+            $('#custom-popup').fadeIn(500);
+        }
+
+        // Show the popup when the page loads
+        showPopup();
+
+        // Close the popup when the close button is clicked
+        $('.popup-close').click(function () {
+            $('#custom-popup').fadeOut(500, function () {
+                // Reopen the popup after 3 seconds
+                setTimeout(showPopup, 3600000);
+            });
+        });
+
+        // Close the popup when clicking outside the content area
+        // $(document).click(function (event) {
+        //   if (!$(event.target).closest('.popup-content').length && !$(event.target).is('.popup-content')) {
+        //     $('#custom-popup').fadeOut(500, function () {
+        //       // Reopen the popup after 3 seconds
+        //       setTimeout(showPopup, 3000);
+        //     });
+        //   }
+        // });
+
         // $('.main-menu ul li:first-child a font font').text('Home');
         $('.main-menu #menu-main-menu li:first-child a font font').text('Home');
 
