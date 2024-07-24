@@ -194,15 +194,15 @@ function custom_block_patterns()
 }
 
 
-function register_footer_widget_area() {
-    register_sidebar(array(
-        'name' => __('Footer Widget Area', 'text_domain'),
-        'id' => 'footer-widget-area',
-        'description' => __('Widgets added here will appear in the footer.', 'text_domain'),
-        'before_widget' => '<div id="%1$s" class="widget %2$s">',
-        'after_widget' => '</div>',
-        'before_title' => '<h2 class="widget-title">',
-        'after_title' => '</h2>',
-    ));
-}
-add_action('widgets_init', 'register_footer_widget_area');
+// function register_footer_widget_area() {
+//     register_sidebar(array(
+//         'name' => __('Footer Widget Area', 'text_domain'),
+//         'id' => 'footer-widget-area',
+//         'description' => __('Widgets added here will appear in the footer.', 'text_domain'),
+//         'before_widget' => '<div id="%1$s" class="widget %2$s">',
+//         'after_widget' => '</div>',
+//         'before_title' => '<h2 class="widget-title">',
+//         'after_title' => '</h2>',
+//     ));
+// }
+// add_action('widgets_init', 'register_footer_widget_area');
